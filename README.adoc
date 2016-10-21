@@ -1,0 +1,70 @@
+# git-commands
+
+This projects is used for git commands documentation
+
+## Git documentation and download
+
+* link:https://git-scm.com/[What is git?]
+* link:https://git-scm.com/downloads[Download]
+* link:http://danielkummer.github.io/git-flow-cheatsheet/[Git flow documentation]
+
+## Log
+
+  * Get commits logs
+  
+  $ git log
+  
+## Status
+  
+  * Get git status, commits for push, etc,..
+  
+  $ git status
+
+## Checkout
+
+  * Checkout a git branch
+  
+  $ git checkout develop
+
+## Push
+
+  * Push commits to develop
+  
+  $ git push -f origin develop
+  
+  * Push commits to master
+  
+  $ git push -f origin master
+  
+  * Push all commits for all branchs
+  
+  $ git push --all
+  
+  * Push all tags
+  
+  $ git push --tags
+
+## Reset
+
+  * Reset commits to one point, commit id, tag, etc
+  
+  $ git reset --hard f3c78c4900427a233099f2247223db4cdeffb191
+
+## Delete Tag
+
+  * Delete tag from origin
+  
+	git push --delete origin 0.2.1
+
+
+## Git flow
+
+### Release
+
+  * Release start, create branch 1.0.0
+  
+  $ git flow release start 1.0.0
+  
+  * Release finish, create branch 1.0.0
+  
+  $ git flow release finish 1.0.0
