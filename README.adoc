@@ -28,11 +28,11 @@ This projects is used for git commands documentation
 
 ## Push
 
-  * Push commits to develop
+  * Push commits to develop with -f option, to force commints, used with reset option
   
   $ git push -f origin develop
   
-  * Push commits to master
+  * Push commits to master with -f option, to force commints, used with reset option
   
   $ git push -f origin master
   
