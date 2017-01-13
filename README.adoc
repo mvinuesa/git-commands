@@ -70,6 +70,14 @@ This projects is used for git commands documentation
   
   $ git remote rm githubOrigin
 
+## Merge from develop to master
+
+  $ git checkout develop
+  $ git pull origin develop
+  $ git checkout master
+  $ git merge develop
+  $ git push origin master
+
 ## Git flow
 
 ### Release
