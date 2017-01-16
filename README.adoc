@@ -77,6 +77,17 @@ This projects is used for git commands documentation
   $ git checkout master
   $ git merge develop
   $ git push origin master
+  
+## Migrate to another origin
+
+  * Update all branchs
+  $ git pull origin
+  * Add new remote
+  $ git remote add originGithub https://github.com/.....
+  * Push all branchs
+  $ git push --all originGithub
+  * Push all tags
+  $ git push --tags originGithub
 
 ## Git flow
 
