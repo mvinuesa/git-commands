@@ -54,7 +54,7 @@ This projects is used for git commands documentation
 
   * Delete tag from origin
   
-	git push --delete origin 0.2.1
+  $ git push --delete origin 0.2.1
 
 ## Remote
 
@@ -69,6 +69,12 @@ This projects is used for git commands documentation
   * remove remote
   
   $ git remote rm githubOrigin
+
+## Force hard reset from master (move origin/master to before commit, reset new commits)
+
+  $ git checkout master
+  $ git reset --hard f3c78c4900427a233099f2247223db4cdeffb191 --> commit id
+  $ git push -f origin master
 
 ## Merge from develop to master
 
