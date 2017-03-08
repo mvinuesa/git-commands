@@ -123,3 +123,18 @@ This projects is used for git commands documentation
   * Release finish, create branch 1.0.0
   
   $ git flow release finish 1.0.0
+  
+  ## Git flow
+
+## Plugin maven jgitflow
+
+
+### Release
+
+  * Release start
+  
+  $ mvn jgitflow:release-start -DnoDeploy=true
+  
+  * Release finish -DnoDeploy to not deploy artifact
+  
+  $ mvn jgitflow:release-finish -DnoDeploy=true
